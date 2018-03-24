@@ -1,0 +1,40 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Indhira Holmes
+tagline:             UX Designer
+url:               IndhiraHolmes.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Indhira Holmes
+  url:               https://twitter.com/
+  email:             iindhira@gmail.com
+  place:             the DMV
+  more_info: "User experience is more than making things look pretty, it’s about making things useful.
+Along side my clients, I increase conversations with the users by creating a frictionless user journey throughout the site, app or product. By increasing conversation we therefor increase profit. We make the users happy because they have a frictionless experience and the business is happy because they are hitting key performance indicators. Let’s work together to unite users and products, design and experience."
+
+
+# Custom vars
+version:             2.0.1
+# github:
+#   repo:              https://github.com/iindhira/portfolio
+google_analytics:    FAKE_GOOGLE_ANALYTICS
+twitter:             
+github:              iindhira
+dribbble:            iindhira
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
