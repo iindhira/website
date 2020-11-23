@@ -1,38 +1,12 @@
-# Permalinks
-permalink:           pretty
-
-# Setup
-title:               Indhira Holmes
-tagline:             UX Researcher
-url:               IndhiraHolmes.com
-paginate:            1
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Indhira Holmes
-  url:               https://twitter.com/
-  email:             iindhira@gmail.com
-  place:             the DMV
-  more_info:         User experience is about being diligent, practical and exploratory. Figuring out the user’s needs is key in the process of creating a frictionless experience with a product. Let’s work together to unite users and products, design and experience.
-
-# Custom vars
-version:             2.0.1
-# github:
-#   repo:              https://github.com/iindhira/portfolio
-google_analytics:    FAKE_GOOGLE_ANALYTICS
-twitter:             
-github:              iindhira
-dribbble:            iindhira
-
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+# ----------- CONFIGURABLE START -----------
+title:            "Scribble"
+title:            "A DASH OF INDHY"
+description:      "Such theme, very cool."
+url:              http://scribble.muan.co # Site url, without a slash at the end.
+signoff:          "muan" # Your name
+@@ -19,4 +19,4 @@ links:
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default" 
+      layout: "default"
